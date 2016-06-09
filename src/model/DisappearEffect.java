@@ -11,6 +11,12 @@ package model;
  */
 public class DisappearEffect extends Effect {
 
+    /**
+     * Cree une case vide tout le temps
+     * @param line
+     * @param column
+     * @param game
+     */
     @Override
     public void playEffect(int line, int column, Game game) {
 
